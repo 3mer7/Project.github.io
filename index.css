@@ -18,6 +18,20 @@ a{
     color: #FFF;
 }
 
+::-webkit-scrollbar{
+    width: 5px;
+}
+
+::-webkit-scrollbar-track{
+    background-color: #fff;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #f44336;
+    border-radius: 3px;
+}
+
+
 .header{
     height: 100vh;
     width: 100%;
@@ -530,4 +544,19 @@ footer p span{
     outline: none;
     background-color: #f0f0f0;
     width: 100%;
+}
+
+.up{
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    width: 20px;
+    height: 20px;
+    padding: 4px 0;
+    border-radius: 4px;
+    cursor: pointer;
+    display: none;
 }
