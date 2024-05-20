@@ -518,13 +518,14 @@ footer p span{
 .contact-col form{
     display: flex;
     flex-direction: column;
-    gap: 20px;
     border: 1px solid #ccc;
     padding: 20px;
+    overflow: hidden;
 }
 
 .contact-col form input, .contact-col form textarea{
     padding: 10px;
+    margin: 15px 0;
     border: none;
     outline: none;
     background-color: #f0f0f0;
